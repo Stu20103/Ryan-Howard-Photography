@@ -4,11 +4,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffa500;
+    background-color: #000000;
   }
   
   li {
-    font-family: 'Cinzel', serif;
+    font-family: 'Sitka', serif;
       font-size: 25px;
       float: left;
   }   
@@ -20,7 +20,7 @@ ul {
     padding: 17px 119px;
     text-decoration: none;
            color: #f1f1f1f1;
-    font-family: 'Cinzel', serif;
+    font-family: 'Stika', serif;
       font-size: 23px;
   }
   
@@ -30,7 +30,7 @@ ul {
     text-align: center;
     padding: 17px 133px 17px 133px;
     text-decoration: none;
-    font-family: 'Cinzel', serif;
+    font-family: 'Stika', serif;
       font-size: 23px;
   }
   
