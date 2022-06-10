@@ -1,0 +1,68 @@
+html { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* nav bar styling */ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  li {
+   float: left;
+  }   
+  
+  .last {
+    border-right: none;
+      display: block;
+    text-align: center;
+    padding: 2.5vh 9.67vw;
+    text-decoration: none;
+           color: #f1f1f1f1;
+    font-family: 'Stika', serif;
+      font-size: 3vh;
+  }
+  
+  .navbartext {
+      color: #f1f1f1f1;
+    display: block;
+    text-align: center;
+    padding: 2.8vh 9.57vw 2.8vh 9.57vw;
+    text-decoration: none;
+    font-family: 'Stika', serif;
+    font-size: 3vh;
+  }
+  
+  li:hover {
+    background-color: #555;
+  }
+  
+  .logo {
+      width:5.5vw; 
+      height: 8.36vh; 
+      background-color: rgba(0,0,0,0.8);
+      opacity: 95%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 10vh;
+    background-color: rgba( 255, 255, 255, 0.5);
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  p {
+    text-align: center;
+    font-size: 3vw;
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+    background-color: rgba( 255, 255, 255, 0.5);
+  }
