@@ -1,3 +1,3 @@
 $.backstretch([
-  "Images/IMG_1451.JPG"], 
+  "Images/lambointerior.jpg"], 
   {duration: 3000, fade: 750});
