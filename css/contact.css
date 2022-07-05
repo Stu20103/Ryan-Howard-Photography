@@ -58,11 +58,48 @@ ul {
     margin-left: 20%;
   }
 
-  p {
-    text-align: center;
-    font-size: 3vw;
+  label {
+    margin-left: 1vw;    
+  }
+
+
+  form {
+    font-size: 2vw;
     width: 60%;
     position: relative;
+    background-color: rgba( 200, 200, 200, 0.65);
     margin-left: 20%;
-    background-color: rgba( 255, 255, 255, 0.5);
+    margin-right: 20%;
+    float:left;
+  }
+  input {
+    height: 2vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+
+  }
+
+  #input-submit {
+    margin-left: 46%; 
+    text-align: center;
+   
+  }
+  #input-name {
+    background-color: rgba( 255, 255, 255, 0.29);
+
+
+  }
+  #input-email {
+    background-color: rgba( 255, 255, 255, 0.29);
+
+  }
+
+  #input-message {
+    background-color: rgba( 255, 255, 255, 0.29);
+    height: 15vh;
+    width: 30vw;
+    vertical-align: top;
+  }
+  textarea {
+    resize: none;
   }
