@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
     <title>RH Photography</title>
 </head>
 <body>
@@ -22,12 +20,23 @@
     <!-- backstretch -->
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="./js/jquery.backstretch.min.js"></script>
-    <script src="./js/about.js"></script>
+    <script src="./js/contact.js"></script>
     <div class="text">
-        <h1>About Ryan Howard Photography</h1>
-        <p>Ryan Howard Photography is one of the biggest photography buisness in the albany area. Ryan Howard is a student at ASHS. He is an independent and hard working photographer. He lives in Auckland, a city in the small country known as New Zealand. He currently only does photography part time, meaning that his photos are very exclusive. He mainly uses a camera to take his photos. Some common photo subjects are cars. He also does commissions starting from $200 and going up to $1.5k. 
-            
-        </p> 
+        <h1>Contact Ryan</h1>
+        <form method ="POST" action="insertDB.php" class ="cf">
+            <label for="input-name">Name</label>
+            <input type ="text" minlength="2" name="fullName" required placeholder="Name" id="input-name">
+            <br>
+            <label for="input-email">Email</label>
+            <input type ="email" required name="email" required placeholder="Email" id="input-email">
+            <br>
+            <label for="input-message">Message</label>
+			<textarea name="contactMessage" required placeholder="Message"  id="input-message"> </textarea>   
+            <br>
+           <input type="submit" name="submit" value="Submit"  id="input-submit">
+      </form>
     </div>
 </body>
-</html>
+<script>
+    $("#commentForm").validate();   
+</script>   
