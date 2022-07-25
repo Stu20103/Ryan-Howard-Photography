@@ -6,10 +6,10 @@ $password = "admin";
 $dbname = "Ryan Howard";
 
 
-$fullName = $_POST["fullName"];
+$name = $_POST["name"];
 $email = $_POST["email"];
-$contactMessage = $_POST["contactMessage"];
-$contactMessage = str_replace("","",$contactMessage);
+$message = $_POST["message"];
+$message = str_replace("","",$message);
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -17,11 +17,11 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO info (fullName, email, contactMessage)
-VALUES ('$fullName', '$email', '$contactMessage')";
+$sql = "INSERT INTO info (name, email, message)
+VALUES ('$name', '$email', '$message')";
 
 if (mysqli_query($conn, $sql)) {
-  echo "NOT ON FIRE YET";
+  echo "Message sent";
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

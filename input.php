@@ -25,13 +25,13 @@
         <h1>Contact Ryan</h1>
         <form method ="POST" action="insertDB.php" class ="cf">
             <label for="input-name">Name</label>
-            <input type ="text" minlength="2" name="fullName" required placeholder="Name" id="input-name">
+            <input type ="text" minlength="2" name="name" required placeholder="Name" id="input-name">
             <br>
             <label for="input-email">Email</label>
             <input type ="email" required name="email" required placeholder="Email" id="input-email">
             <br>
             <label for="input-message">Message</label>
-			<textarea name="contactMessage" required placeholder="Message"  id="input-message"> </textarea>   
+			<textarea name="message" required placeholder="Message"  id="input-message"> </textarea>   
             <br>
            <input type="submit" name="submit" value="Submit"  id="input-submit">
       </form>
