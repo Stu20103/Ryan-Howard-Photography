@@ -12,17 +12,17 @@
                 <li><a class="logo"><img class="logo" src="images/Rhlogo.jpg" alt="Logo" ></a></li>
                 <li><a class="navbartext" href="index.html">Home</a></li>
                 <li><a class="navbartext" href="photos.html">Photos</a></li>
-                <li><a class="navbartext" href="http://localhost/ryan%20howard/input.php">Contact</a></li>
+                <li><a class="navbartext" href="input.html">Contact</a></li>
                 <li><a class="last" href="about.html">About</a></li>
             </ul>    
         </div>
     </div>
-    <!-- backstretch -->
-    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-    <script src="./js/jquery.backstretch.min.js"></script>
-    <script src="./js/contact.js"></script>
     <div class="text">
         <h1>Contact Ryan</h1>
+        <p>Ryan's phone number: 0800 83838<br>
+            Ryan's email: rhphotography@gmail.com <br>
+            Ryan's po box: 565 S. Mason Rd Unit #391 Katy, TX 77450
+        </p>
         <form method ="POST" action="insertDB.php" class ="cf">
             <label for="input-name">Name:</label>
             <input type ="text" minlength="2" name="name" required placeholder="Name" id="input-name">
@@ -36,6 +36,11 @@
            <input type="submit" name="submit" value="Submit"  id="input-submit">
       </form>
     </div>
+      <!-- backstretch -->
+      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+      <script src="./js/jquery.backstretch.min.js"></script>
+      <script src="./js/contact.js"></script>
+      
 </body>
 <script>
     $("#commentForm").validate();   
