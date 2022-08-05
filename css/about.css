@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
 html { 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,7 +7,7 @@ html {
   }
   body {
     width: 100%;
-    max-width: 1520px;
+    max-width: 1500px;
 }
 /* nav bar styling */ 
 ul {
@@ -24,24 +24,25 @@ ul {
   
   .last {
     border-right: none;
-      display: block;
+    display: block;
     text-align: center;
-    padding: 2.83vh 9.7vw;
+    padding: 2.83vh 8.989vw;
     text-decoration: none;
-           color: #f1f1f1f1;
-    font-family: 'Stika', serif;
-      font-size: 3vh;
+    color: #f1f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
   }
   
   .navbartext {
-      color: #f1f1f1f1;
+    color: #f1f1f1f1;
     display: block;
     text-align: center;
-    padding: 2.83vh 9.7vw;
+    padding: 2.83vh 8.989vw;
     text-decoration: none;
-    font-family: 'Stika', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3vh;
   }
+  
   
   
   li:hover {
@@ -62,6 +63,7 @@ ul {
     position: relative;
     width: 60%;
     margin-left: 20%;
+    font-family: 'Montserrat', sans-serif;
   }
 
   p {
