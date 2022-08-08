@@ -70,7 +70,9 @@ ul {
     width: 60%;
     margin-left: 20%;
     font-family: 'Montserrat', sans-serif;
-
+    border-style: solid;
+    border-width: 0.2vw;
+    border-color: rgba(0,0,0,0.8);
   }
   p {
 
@@ -81,7 +83,9 @@ ul {
     background-color: rgba(104, 104, 104, 0.65);
     color: rgb(255,255,255);
     font-family: 'Open Sans', sans-serif;
-
+    border-style: solid;
+    border-width: 0.2vw;
+    border-color: rgba(0,0,0,0.8);
   }
 
 
@@ -97,10 +101,14 @@ ul {
     width: 60%;
     position: relative;
     background-color: rgba(104, 104, 104, 0.65);
-    color: rgb(255,255,255);    margin-left: 20%;
+    color: rgb(255,255,255);    
+    margin-left: 20%;
     margin-right: 20%;
     float:left;
     padding-left: 2vw;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-color: rgba(0,0,0,0.8);
   }
   input {
     height: 2vw;
