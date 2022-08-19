@@ -12,7 +12,7 @@ html {
     max-width: 1500px;
 }
 /* nav bar styling */ 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ ul {
     width: 100%;
   }
   
-  li {
+  .navbar li {
    float: left;
   }   
   
@@ -46,7 +46,7 @@ ul {
     font-size: 3vh;
   }
   
-  li:hover {
+  .navbar li:hover {
     background-color: #555;
   }
   
@@ -66,7 +66,8 @@ ul {
     text-align: center;
     font-size: 10vh;
     background-color: rgba(104, 104, 104, 0.65);
-    color: rgb(255,255,255);    position: relative;
+    color: rgb(255,255,255);    
+    position: relative;
     width: 60%;
     margin-left: 20%;
     font-family: 'Montserrat', sans-serif;
@@ -139,6 +140,30 @@ ul {
   textarea {
     resize: none;
   }
-  .socials li { 
+
+  .media {
+    text-align: center;
+  }
+  .socials a { 
+    color:#fff;
+    background-color: rgba(104, 104, 104, 0.65);
+    padding: 20px 20px;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+  }
+  .socials a:hover { 
+    color: #292929;
+    border: 1px solid #292929;
+    transition: .5s;
 
   }
+  .socials li { 
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 20px;
+  }
+
