@@ -9,16 +9,32 @@
     <title>RH Photography</title>
 </head>
 <body>
+    <header>
     <div class="nav">
         <div class="navbar">
+            <div class="monbar">
             <ul> 
-                <li><a class="logo" href="index.html"><img class="logo" src="images/Rhlogo.jpg" alt="Logo" ></a></li>
+                <li><a class="logo" href="index.html"><img class="logo" src="images/Rhlogo.jpg" alt="Logo"></a></li>
                 <li><a class="navbartext" href="index.html">Home</a></li>
                 <li><a class="navbartext" href="photos.html">Photos</a></li>
                 <li><a class="navbartext" href="about.html">About</a></li>
                 <li><a class="last" href="input.html">Contact</a></li>
             </ul>    
+            </div>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a class="hamText" href="index.html">Home</a></li>
+                    <li><a class="hamText" href="photos.html">Photos</a></li>
+                    <li><a class="hamText" href="about.html">About</a></li>
+                    <li><a class="hamText" href="input.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
+    </div>
+</header>
     </div>
     <!-- backstretch -->
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
