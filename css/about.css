@@ -54,8 +54,9 @@ html {
      height: 8.59vh; 
       background-color: rgba(0,0,0,0.8);
       opacity: 95%;
-  }
+        }
   #hamburger-icon {
+    display: inline-block;
     margin: auto 0;
     display: none;
     cursor: pointer;
@@ -63,7 +64,7 @@ html {
   #phone {
     padding: 0;
     background-color: rgba(0,0,0,0.8);
-    height: 50px;
+    height: 100%;
     display: none;
   }
   #hamburger-icon div {
@@ -112,7 +113,7 @@ html {
   
   .mobile-menu {
     display: none;
-    position: absolute;
+    position: relative;
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
@@ -129,25 +130,19 @@ html {
     }
   
     #hamburger-icon {
-      display: block;
-    }
+      display: inline-block;'
+      float: right;
+
+        }
     #phone {
-      display: block;
+      display: flex;
     }
-  }
-  .open .text {
-    display: none;
-  }
-  
-  .text {
-    display: block;
   }
 
   h1 {
     text-align: center;
     font-size: calc(25px + 3.5vw);
     background-color: rgba( 255, 255, 255, 0.5);
-    position: relative;
     width: 60%;
     margin-left: 20%;
     font-family: 'Montserrat', sans-serif;
@@ -160,7 +155,6 @@ html {
     text-align: center;
     font-size: calc(10px + 1.5vw);
     width: 60%;
-    position: relative;
     margin-left: 20%;
     background-color: rgba( 255, 255, 255, 0.5);
     font-family:"Crimson Text","Open Sans","Arial",sans-serif;
