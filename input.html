@@ -17,28 +17,32 @@
                 <li><a class="last" href="input.html">Contact</a></li>
             </ul>    
         </div>
+        <div id="phone"> 
+            <a class="logo" href="index.html"><img class="logo" src="images/Rhlogo.jpg" alt="Logo" ></a>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="photos.html">Photos</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="input.html">Contact</a></li>
+            </ul>
+          </div>
+          </div>
     </div>
-    <div id="phone"> 
-        <a class="logo" href="index.html"><img class="logo" src="images/Rhlogo.jpg" alt="Logo" ></a>
-    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="mobile-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="input.html">Contact</a></li>
-        </ul>
-      </div>
-      </div>
+    <!-- backstretch -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="./js/jquery.backstretch.min.js"></script>
+    <script src="./js/contact.js"></script>
     <div class="text">
         <h1>Contact Ryan</h1>
         <p>Ryan's phone number: 0800 83838<br>
             Ryan's email: rhphotography@gmail.com <br>
             Ryan's po box: 565 S. Mason Rd Unit #391 Katy, TX 77450
         </p>
-        <form method ="POST" action="insertDB.php" class ="cf">
+        <form method ="POST" action="insertDB.php">
             <label for="input-name">Name:</label>
             <input type ="text" minlength="2" name="name" required placeholder="Name" id="input-name">                        
             <a href="./index.html"><img class="formLogo" src="./Images/cirgo.png"></a>
@@ -63,10 +67,6 @@
             </ul>
         </div>
     </div>
-      <!-- backstretch -->
-      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-      <script src="./js/jquery.backstretch.min.js"></script>
-      <script src="./js/contact.js"></script>
 
 </body>
 <script>

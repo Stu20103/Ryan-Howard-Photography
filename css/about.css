@@ -73,6 +73,7 @@ html {
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
+    margin-left: 2vw;
   }
   #hamburger-icon ul {
     list-style-type: none;
@@ -109,8 +110,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-  }
-  
+    background-color: rgba(0,0,0,0.8);
+  }  
   .mobile-menu {
     display: none;
     position: relative;
@@ -121,7 +122,11 @@ html {
   }
   
   .mobile-menu li {
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: none;
+    
   }
   
   @media only screen and (max-width: 600px) {
@@ -130,13 +135,14 @@ html {
     }
   
     #hamburger-icon {
-      display: inline-block;'
-      float: right;
-
+      display: inline-block;
+      align-items: center;
         }
     #phone {
       display: flex;
+      align-items: center;
     }
+
   }
 
   h1 {
@@ -186,4 +192,8 @@ html {
     text-decoration: none;
     margin: 10px 30px;
     font-size: 20px;
+  }
+
+  .disable-scroll {
+    overflow: hidden;
   }
